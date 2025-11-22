@@ -3,9 +3,10 @@
 import Link from 'next/link'
 import { GameCard } from '@/components/games/GameCard'
 import { ArrowRight } from 'lucide-react'
+import { Game } from '@/types/game'
 
 // Mock data - en producción vendría de la API
-const featuredGames = [
+const featuredGames: Game[] = [
   {
     id: '1',
     title: 'Machu Picchu Quest',

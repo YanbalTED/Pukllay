@@ -2,9 +2,10 @@
 
 import { GameCard } from '@/components/games/GameCard'
 import { TrendingUp } from 'lucide-react'
+import { Game } from '@/types/game'
 
 // Mock data
-const trendingGames = [
+const trendingGames: Game[] = [
   {
     id: '4',
     title: 'Lima Nights',

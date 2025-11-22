@@ -2,9 +2,10 @@
 
 import { GameCard } from '@/components/games/GameCard'
 import { Sparkles } from 'lucide-react'
+import { Game } from '@/types/game'
 
 // Mock data
-const newReleases = [
+const newReleases: Game[] = [
   {
     id: '7',
     title: 'Selva Misteriosa',
